@@ -1,10 +1,10 @@
 //対象とするGoogleDriveフォルダのID　ブラウザでアクセスしてURL見れば分かる
 var TARGET_FOLDER_ID = "xxxxxxxxxxxxxxxxxxxxxx";
-//更新日時を記録するのスプレッドシートのID　ブラウザでアクセスしてURL見れば分かる
+//更新日時を記録するスプレッドシートのID　ブラウザでアクセスしてURL見れば分かる
 var UPDATE_SHEET_ID = "xxxxxxxxxxxxxxxxxxxxxx";
 //スプレッドシートのシート名（下に表示されるタブのやつ）
 var UPDATE_SHEET_NAME = "シート1";
-// 送信先のメールアドレス
+// 送信先のメールアドレス　このスクリプトの実行ユーザーは、送信済みトレイに入るので注意
 var SEND_MAIL_ADDRESS = ["user1@example.com", "user2@example.com"]
 
 function updateCheck() {
